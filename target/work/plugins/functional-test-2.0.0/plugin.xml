@@ -1,0 +1,7 @@
+<plugin name='functional-test' version='2.0.0' grailsVersion='2.0 &gt; *'>
+  <title>Functional Testing</title>
+  <description>Simple 'pure grails' functional testing for your web applications</description>
+  <documentation>http://grails.org/plugin/functional-test</documentation>
+  <type>FunctionalTestGrailsPlugin</type>
+  <resources />
+</plugin>
