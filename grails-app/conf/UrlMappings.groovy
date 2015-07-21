@@ -23,6 +23,9 @@ class UrlMappings {
             action = [GET: 'devuelvo200']
         }
 
+        "/log/saludar" (controller: 'rest4', parseRequest: true) {
+            action = [GET: 'saludar']
+        }
 
         "/"(view:"/index")
         "500"(view:'/error')
