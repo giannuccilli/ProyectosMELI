@@ -5,6 +5,7 @@ class Persona {
     String nombre
     String apellido
 
+    static hasOne = [direccion:Direccion]
 
     static constraints = {
     }

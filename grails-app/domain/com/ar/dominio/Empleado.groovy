@@ -9,6 +9,6 @@ class Empleado extends Persona {
 
     @Override
     String toString() {
-        return super.toString() + getLegajo()
+        return super.toString() + getLegajo() + getDireccion()
     }
 }
